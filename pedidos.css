@@ -1,0 +1,54 @@
+form{
+    background-color: lightgreen;
+    color: black;
+    border-style: double;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    margin-top: 3px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: system-ui;
+    font-size: 15px;
+}   
+
+.controls {
+    width: 90%;
+    background: whitesmoke; 
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    border: 6px solid lightyellow;
+    font-family: system-ui
+}
+
+.button {
+    width: 100%;
+    padding: 10px;
+    background-color: lightyellow;
+    border-style: hidden;
+    font-size: 15px;
+    margin-top: 25px;
+}
+
+.formt {
+    text-align: center;
+}
+
+
+body {
+    background-color: #96e4ab7e;
+
+}
+
+div.kiki {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+div.luna {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+

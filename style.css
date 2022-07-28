@@ -1,0 +1,97 @@
+body {
+    background-color: #96e4ab7e;
+}
+
+img {
+    margin-top: -21px;
+    margin-left: 950px;
+    position: relative;
+    padding: 10px;
+    height: 250px;
+    border-radius: 138px
+    
+}
+
+.titulo {
+    background-image: url("1.png");
+    text-align: center;
+    width: 1264px;
+    margin-left: -9px;
+    font-family: system-ui;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+nav.pupa {
+    border: 2px black;
+    z-index: 6;
+    position: relative;
+    margin-top: -227px;
+    padding: 6px;
+}
+
+.inicio, .menú, .pedidos, .contactanos {
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    border-radius: 54px;
+    background-color: rgba(144, 238, 144, 0.559);
+    color: black;
+    margin-top: 40px;
+    padding: 19px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0px;
+    text-decoration: none;
+    transition: 1px;
+    cursor: pointer;
+    filter: brightness(0.7);
+    
+}
+
+.lista {
+    border-style: groove;
+    border-color: black;
+    border-radius: 14px;
+    width: 855px;
+    margin-left: 5px;
+    padding: 20px;
+}
+
+main p {
+    margin-top: 41px;
+    margin-left: 8px;
+}
+
+footer p {
+    text-align: center;
+    
+}
+
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}

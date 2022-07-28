@@ -1,0 +1,89 @@
+body {
+    background-color: #96e4ab7e;
+}
+
+img {
+    margin-top: -21px;
+    margin-left: 950px;
+    position: relative;
+    padding: 10px;
+    height: 250px;
+    border-radius: 138px
+    
+}
+
+.titulo {
+    background-image: url("1.png");
+    text-align: center;
+    width: 1264px;
+    margin-left: -9px;
+    font-family: system-ui;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+nav.pupa {
+    border: 2px black;
+    z-index: 6;
+    position: relative;
+    margin-top: -227px;
+    padding: 6px;
+}
+
+.inicio, .menú, .pedidos, .contactanos {
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    border-radius: 54px;
+    background-color: rgba(144, 238, 144, 0.559);
+    color: black;
+    margin-top: 50px;
+    padding: 19px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0px;
+    text-decoration: none;
+    transition: 1px;
+    cursor: pointer;
+    filter: brightness(0.7);
+}
+
+div.menu1, div.menu2, div.menu3 {
+    border-style: ridge;
+    padding: 7px;
+    width: 800px;
+    height: 300px;
+    margin-left: 47px;
+    background-color: lightgrey;
+}
+
+
+.mole, .tacos, .pozole {
+    margin-top: -60px;
+    margin-left: 451px;
+}
+ 
+.texto1, .texto2, .texto3 {
+    text-align: left;
+    font-family: d;
+    font-style: oblique;
+    width: 396px;
+    margin-top: -220px;
+    margin-left: 18px;
+}
+
+h4 {
+    font-size: larger;
+    font-family: serif;
+    font-style: italic;
+    margin-top: 18px;
+    margin-left: 181px;
+    margin-bottom: 20px;
+}
+
+.platosprin {
+    margin-left: 45px;
+    margin: 25px;
+}
+
